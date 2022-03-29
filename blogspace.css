@@ -1,0 +1,62 @@
+nav {
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 1.5rem;
+    position:fixed;
+    width:100%; 
+  }
+  
+  nav h2 {
+   font-weight: 700;
+    color: brown;
+    
+  }
+  
+  form {
+   
+     padding-top:150px;
+     display:grid;
+     
+  }
+  
+  #post-title {
+  
+   width:100%;
+    margin-bottom:2em;
+   
+  }
+  
+  #post-area {
+    width:100%;
+  }
+  
+  #btn {
+    padding: 1em;
+    border-radius:1em;
+    cursor:pointer;
+    width:100%;
+    margin-top:2em;
+    color:blue;
+    font-size:1.2em;
+    
+  }
+  
+  #btn:hover {
+    opacity: 0.5
+  }
+  .container {
+    width:90%;
+    max-width: 900px;
+    margin: 0 auto;
+   font-family: 'PT Sans', sans-serif;
+    
+  }
+  
+  .post-list,
+  .user-posts{
+    border-bottom: 1px solid black;
+    margin-block: 2em;
+  }
+  
+  
